@@ -107,6 +107,7 @@
             this.txtCRM.Name = "txtCRM";
             this.txtCRM.Size = new System.Drawing.Size(120, 20);
             this.txtCRM.TabIndex = 6;
+            this.txtCRM.TextChanged += new System.EventHandler(this.txtCRM_TextChanged);
             // 
             // txtCelularMed
             // 
@@ -128,6 +129,7 @@
             this.txtNomeMed.Name = "txtNomeMed";
             this.txtNomeMed.Size = new System.Drawing.Size(100, 20);
             this.txtNomeMed.TabIndex = 9;
+            this.txtNomeMed.TextChanged += new System.EventHandler(this.txtNomeMed_TextChanged);
             // 
             // dtpNascMed
             // 
@@ -143,6 +145,7 @@
             this.cbbEspecialidade.Name = "cbbEspecialidade";
             this.cbbEspecialidade.Size = new System.Drawing.Size(121, 21);
             this.cbbEspecialidade.TabIndex = 11;
+            this.cbbEspecialidade.SelectedIndexChanged += new System.EventHandler(this.cbbEspecialidade_SelectedIndexChanged);
             // 
             // btnIncluirMed
             // 
@@ -152,6 +155,7 @@
             this.btnIncluirMed.TabIndex = 12;
             this.btnIncluirMed.Text = "Incluir";
             this.btnIncluirMed.UseVisualStyleBackColor = true;
+            this.btnIncluirMed.Click += new System.EventHandler(this.btnIncluirMed_Click);
             // 
             // btnExcluirMed
             // 

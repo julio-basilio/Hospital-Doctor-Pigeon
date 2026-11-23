@@ -23,7 +23,7 @@ namespace DSS_TORRE_161126
             set { _StrSql = value; }
         }
 
-        private string strConexao = "datasource=localhost;username=root;password=;database=dssEstoque;";
+        private string strConexao = "datasource=localhost;username=root;password=;database=DoctorPigeon;";
 
         private MySqlConnection AbrirBanco()
         {
